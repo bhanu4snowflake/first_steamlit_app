@@ -34,3 +34,14 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 streamlit.dataframe(fruityvice_normalized)
 
 import snowflake.connector
+
+
+
+[snowflake]
+user = "BHANUPRAKASHM "
+password = "Prathyusha@2"
+account = "UUFOHSS-OY71837" 
+warehouse = "pc_rivery_wh" 
+database = "pc_rivery_db" 
+schema = "public"
+role = "pc_rivery_role"
