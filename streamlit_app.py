@@ -12,11 +12,5 @@ streamlit.text('🥑Hard-Boiled Free-Range Egg')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
-try:
+
 fruit_choice=streamlit.text('What fruit would you like information about?')
-
-if not fruit_choice:
-    streamlit.text('if')
-else:
- streamlit.text('else?')
-
