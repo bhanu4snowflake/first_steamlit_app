@@ -6,7 +6,7 @@ import streamlit
 
 streamlit.header("Fruityvice Fruit Advice!")
 #try:  
-      streamlit.text_input('What fruit would you like information about?')
+      #streamlit.text_input('What fruit would you like information about?')
 #if fruit_choice:
     #   streamlit.error("Please select a fruit to get information.")
 #else:
